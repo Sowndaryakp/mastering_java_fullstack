@@ -1,5 +1,5 @@
-package basics;
-public class Hello{
+public class Basics
+{
     public static void main(String args[])
     {
         // System.out.println("Hello");
@@ -40,7 +40,30 @@ public class Hello{
         // int num1 = 0x7E; //hexa
         // System.out.println(num1);
 
+        // double num1 = 12e10;
+        // System.out.println(num1);
 
+        // char c = 'a';
+        // c++;
+        // System.out.println(c);
+
+        // //type conversion(implicit) and casting(explicite)
+        // byte b =127;
+        // int n = b;
+
+        // int a = 12;
+        // byte b = (byte) a;
+
+        // float f = 7.9f;
+        // int n = (int) f;
+        // System.out.println(n);
+
+        //type promotion
+        // byte b1= 3;
+        // byte b2=6;
+        // int result = b1*b2;
+        // System.out.println(result);
+        
     }
     
 }
