@@ -8,7 +8,7 @@ public class Basics
         // System.out.println(8+1);
         // System.out.print(6+1);
 
-        // //Data Type - Primitiv
+        // //Data Types - Primitiv
         // byte b = 127; //127 is last value
         // System.out.println(b);
 
@@ -35,7 +35,7 @@ public class Basics
         // boolean b = true;
         // System.out.println(b);
 
-        // //literals
+        // //Literals
         // int num1 = 0b101; //binary
         // int num1 = 0x7E; //hexa
         // System.out.println(num1);
@@ -47,7 +47,7 @@ public class Basics
         // c++;
         // System.out.println(c);
 
-        // //type conversion(implicit) and casting(explicite)
+        // //Type Conversion(implicit) and Casting(explicite)
         // byte b =127;
         // int n = b;
 
@@ -63,7 +63,71 @@ public class Basics
         // byte b2=6;
         // int result = b1*b2;
         // System.out.println(result);
+
+        // //Operators
+        // //Arithmetic operator
+        // int num1 = 2;
+        // int num2 = 5;
+
+        // int result = num1 + num2;
+        // int result = num1 - num2;
+        // int result = num1 * num2;
+        // int result = num1 / num2;
+        // int result = num1 % num2;
+        // System.out.println(result);
         
+        // // Unary operator
+        // int num = 2;
+        // num++; // 3
+        // ++num; //3
+        // num--; //2
+        // --num; //2
+        // System.out.println(num);
+
+        // int result = num++; //fetch the value and increment //2
+        // int result = ++num; //increment and fetch the value //3
+        // int result = num--; //fetch the value and increment //2
+        // int result = --num; //increment and fetch the value //3
+        // System.out.println(result);
+
+        // //Assignment operator
+        // int num1 = 2;
+        // num1 += 1;
+        // num1 -= 1;
+        // num1 *= 1;
+        // num1 /= 1;
+        // num1 %= 1;
+        // System.out.println(num1);
+
+        // //Relational operator
+        // int num1 = 6;
+        // int num2 = 2;
+        // boolean result = num1 < num2;
+        // boolean result = num1 > num2;
+        // boolean result = num1 <= num2;
+        // boolean result = num1 >= num2;
+        // boolean result = num1 == num2;
+        // boolean result = num1 != num2;
+        // System.out.println(result);
+
+
+        // //Logical operator 
+        int x = 2;
+        int y = 5;
+        int a = 5;
+        int b = 6;
+        // boolean result = x < y && a < b;
+        // boolean result = x > y && a < b;
+        //  boolean result = x < y || a < b;
+        boolean result = x > y || a < b;
+        System.out.println(result);
+        // System.out.println(!result);
+
+        // //Ternary operator
+
+        // //Bitwise operator
+
+        // //Shift operator
     }
     
 }
