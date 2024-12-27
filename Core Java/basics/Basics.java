@@ -124,10 +124,16 @@ public class Basics
         // System.out.println(!result);
 
         // //Ternary operator
+        num1 = 10;
+        num2 = 20;
 
+        int res=(num1>num2) ? (num1+num2):(num1-num2)
+        
         // //Bitwise operator
 
         // //Shift operator
+
+        
     }
     
 }
