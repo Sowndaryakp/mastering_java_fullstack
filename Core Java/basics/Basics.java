@@ -112,27 +112,35 @@ public class Basics
 
 
         // //Logical operator 
-        int x = 2;
-        int y = 5;
-        int a = 5;
-        int b = 6;
+        // int x = 2;
+        // int y = 5;
+        // int a = 5;
+        // int b = 6;
         // boolean result = x < y && a < b;
         // boolean result = x > y && a < b;
         //  boolean result = x < y || a < b;
-        boolean result = x > y || a < b;
-        System.out.println(result);
+        // boolean result = x > y || a < b;
+        // System.out.println(result);
         // System.out.println(!result);
 
         // //Ternary operator
-        num1 = 10;
-        num2 = 20;
+        // num1 = 10;
+        // num2 = 20;
 
-        int res=(num1>num2) ? (num1+num2):(num1-num2)
+        // int res=(num1>num2) ? (num1+num2):(num1-num2);
         
         // //Bitwise operator
 
         // //Shift operator
 
+        // //Conditional Statement
+        // //If else
+        int x=18;
+
+        if(x>10 && x<20)
+            System.out.println("hello");
+        else
+            System.out.println("bye");
         
     }
     
