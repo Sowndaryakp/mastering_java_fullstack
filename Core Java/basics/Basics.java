@@ -259,7 +259,11 @@ public class Basics
         //learn differentiate btw loops
         // when we know the start and end go for loop & while loop
 
-        // OOPS
+        // OOPS(Object oriented programming)
+        // object - Properties and behaviours
+        // class is act as a blueprint of an object
+        //who creates object in java is JVM
+        
     }
     
 }
