@@ -123,24 +123,141 @@ public class Basics
         // System.out.println(result);
         // System.out.println(!result);
 
+        // //Bitwise operator
+
+
+        // //Shift operator
+
+
+        // //Conditional Statement
+        // //If else
+        // int x=18;
+
+        // if(x>10 && x<20)
+        //     System.out.println("hello");
+        // else
+        //     System.out.println("bye");
+
+        // int x=5;
+        // int y=7;
+        // int z=6;
+        
+        // if(x > y){
+        //     System.out.println("X value is: " +x);
+        // }else if(y>x){
+        //     System.out.println("Y value is: " +y);
+        // }else{
+        //     System.out.println("Nothing");
+        // }
+
+        // if(x>y && x>z){
+        //     System.out.println("X value is: " +x);
+        // }else if(y>x && y>z){ // just use this condition also y>z avoid duplication
+        //     System.out.println("Y value is: " +y);
+        // }else if(z>x && z>y){
+        //     System.out.println("Z value is: " +z);
+        // }else{
+        //     System.out.println("Nothing");
+        // }
+
+        //even or odd
+        // int n = 5;
+
+        // if(n%2==0){
+        //     System.out.println("Even number");
+        // }else{
+        //     System.out.println("Odd number");
+        // }
+
         // //Ternary operator
+        
         // num1 = 10;
         // num2 = 20;
 
         // int res=(num1>num2) ? (num1+num2):(num1-num2);
         
-        // //Bitwise operator
+        // int n = 4;
+        // String result;
 
-        // //Shift operator
+        // result = (n%2==0) ? "Even" : "Odd";
+        // System.out.println(result);
 
-        // //Conditional Statement
-        // //If else
-        int x=18;
+        // //Switch statement
+        // int n =6;
 
-        if(x>10 && x<20)
-            System.out.println("hello");
-        else
-            System.out.println("bye");
+        // switch(n){
+        //     case 1:
+        //         System.out.println("Monday");
+        //         break;
+        //     case 2:
+        //         System.out.println("Tuesday");
+        //         break;
+        //     case 3:
+        //         System.out.println("Wednesday");
+        //         break;
+        //     case 4:
+        //         System.out.println("Thursday");
+        //         break;
+        //     case 5:
+        //         System.out.println("Friday");
+        //         break;
+        //     case 6:
+        //         System.out.println("Saturday");
+        //         break;
+        //     case 7:
+        //         System.out.println("Sunday");
+        //         break;
+        //     default:
+        //         System.out.println("Enetr valid number");
+        // }
+
+        // //Loops
+        // //While loop
+        //  int i = 1; // if i give 5 it will not print anything, if you want to print go to do-while loop
+
+        //  while(i<=4){
+        //     System.out.println("Hi " +i);
+        //     i++;
+        //  }
+
+        //Nested while loop (ex number of days is i, numbers of hours is j)
+        //  int i = 1;
+
+        //  while(i<=4){
+        //     System.out.println("Hi " +i);
+
+        //     int j=1;
+        //     while(j<=3){
+        //         System.out.println("Hello " +j);
+        //         j++;
+        //     }
+        //     i++;
+        //  }
+
+        // // Do While loop
+        //  int i = 1; //if i give 5 it can false also it will print at least one time
+
+        //  do{
+        //     System.out.println("Hi " +i);
+        //     i++;
+        //  }while(i<=4);
+
+        // //For loop
+        // for(int i=4;i>=1;i--){
+        //     System.out.println("Hi "+ i);
+        // }
+
+        // Nested for Loop
+        for(int i=1;i<=5;i++){
+            System.out.println("DAY "+ i);
+
+            for(int j=1;j<=9;j++){
+                System.out.println("    "+(j+8) + "-" +(j+9));
+            }
+        }
+
+        //learn differentiate btw loops
+        // when we know the start and end go for loop & while loop
 
         // OOPS
     }
