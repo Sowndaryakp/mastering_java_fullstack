@@ -264,7 +264,13 @@ public class Basics
         // class is act as a blueprint of an object
         //who creates object in java is JVM
 
-        //statically typed language
+        //Java is statically typed language means to specify for all the data and which data type
+
+    	//JDK, JRE, JVM
+    
+    	// Methods
+    	
+
 
 
         
