@@ -8,7 +8,8 @@ public class Basics
         // System.out.println(8+1);
         // System.out.print(6+1);
 
-        // //Data Types - Primitiv
+        // //Data Types - Primitive
+        // byte(1 byte), short(2), int(4), long(8), float(4), double(8)
         // byte b = 127; //127 is last value
         // System.out.println(b);
 
@@ -48,9 +49,11 @@ public class Basics
         // System.out.println(c);
 
         // //Type Conversion(implicit) and Casting(explicite)
+        //implicit
         // byte b =127;
         // int n = b;
 
+        //explicite
         // int a = 12;
         // byte b = (byte) a;
 
@@ -65,7 +68,7 @@ public class Basics
         // System.out.println(result);
 
         // //Operators
-        // //Arithmetic operator
+        // //Arithmetic operator(+,-,*,/,%)
         // int num1 = 2;
         // int num2 = 5;
 
@@ -76,7 +79,7 @@ public class Basics
         // int result = num1 % num2;
         // System.out.println(result);
         
-        // // Unary operator
+        // // Unary operator(++, --)
         // int num = 2;
         // num++; // 3
         // ++num; //3
@@ -90,7 +93,7 @@ public class Basics
         // int result = --num; //increment and fetch the value //3
         // System.out.println(result);
 
-        // //Assignment operator
+        // //Assignment operator(=,+=,-=,*=,/=,%=)
         // int num1 = 2;
         // num1 += 1;
         // num1 -= 1;
@@ -99,7 +102,7 @@ public class Basics
         // num1 %= 1;
         // System.out.println(num1);
 
-        // //Relational operator
+        // //Relational operator(<,>,<=,>=,==,!=)
         // int num1 = 6;
         // int num2 = 2;
         // boolean result = num1 < num2;
@@ -111,7 +114,7 @@ public class Basics
         // System.out.println(result);
 
 
-        // //Logical operator 
+        // //Logical operator(&&,||,!)
         // int x = 2;
         // int y = 5;
         // int a = 5;
@@ -248,13 +251,13 @@ public class Basics
         // }
 
         // Nested for Loop
-        for(int i=1;i<=5;i++){
-            System.out.println("DAY "+ i);
+        // for(int i=1;i<=5;i++){
+        //     System.out.println("DAY "+ i);
 
-            for(int j=1;j<=9;j++){
-                System.out.println("    "+(j+8) + "-" +(j+9));
-            }
-        }
+        //     for(int j=1;j<=9;j++){
+        //         System.out.println("    "+(j+8) + "-" +(j+9));
+        //     }
+        // }
 
         //learn differentiate btw loops
         // when we know the start and end go for loop & while loop
