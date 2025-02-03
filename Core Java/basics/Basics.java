@@ -214,6 +214,22 @@ public class Basics
         //         System.out.println("Enetr valid number");
         // }
 
+        // //BREAK
+        // for(int i=0;i<=8;i++){
+        //     if(i == 4){
+        //         break;
+        //     }
+        //     System.out.println(i);
+        // }
+
+        // //Continue
+        for(int i=0;i<=8;i++){
+            if(i == 4){
+                continue;
+            }
+            System.out.println(i);
+        }
+
         // //Loops
         // //While loop
         //  int i = 1; // if i give 5 it will not print anything, if you want to print go to do-while loop
