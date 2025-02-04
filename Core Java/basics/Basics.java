@@ -223,12 +223,12 @@ public class Basics
         // }
 
         // //Continue
-        for(int i=0;i<=8;i++){
-            if(i == 4){
-                continue;
-            }
-            System.out.println(i);
-        }
+        // for(int i=0;i<=8;i++){
+        //     if(i == 4){
+        //         continue;
+        //     }
+        //     System.out.println(i);
+        // }
 
         // //Loops
         // //While loop
@@ -294,7 +294,7 @@ public class Basics
          //Stack And Heap
 
 
-
+        
         
     }
     
