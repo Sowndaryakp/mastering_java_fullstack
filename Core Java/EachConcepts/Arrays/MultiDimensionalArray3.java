@@ -1,3 +1,4 @@
+// SYNTAX:
 // // 1. Declaration & Memory Allocation
 // dataType[][] arrayName = new dataType[rows][columns];
 

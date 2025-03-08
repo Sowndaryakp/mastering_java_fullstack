@@ -1,3 +1,4 @@
+// SYNTAX:
 // // 3D Array Declaration
 // dataType[][][] arrayName = new dataType[x][y][z]; 
 
