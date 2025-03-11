@@ -1,3 +1,4 @@
+// SYNTAX:
 // // Jagged Array Declaration
 // dataType[][] arrayName = new dataType[rows][]; 
 

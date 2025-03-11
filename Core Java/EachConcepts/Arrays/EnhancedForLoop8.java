@@ -1,3 +1,4 @@
+// SYNTAX:
 // for (dataType variable : collectionOrArray) {
 //     // Code to execute for each element
 // }

@@ -1,3 +1,4 @@
+// SYNTAX:
 // // 1. Declaration of Array of Objects
 // ClassName[] arrayName = new ClassName[size];
 
