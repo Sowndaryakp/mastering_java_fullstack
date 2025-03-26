@@ -8,8 +8,8 @@ class BasicPatterns{
         // *****
         // *****
 
-        // for(int i=1;i<=5;i++){
-        //     for(int j=1;j<=5;j++){
+        // for(int i=1;i<=5;i++){ //row
+        //     for(int j=1;j<=5;j++){ //column
         //         System.out.print("*");
         //     }
         //     System.out.println();
@@ -160,16 +160,116 @@ class BasicPatterns{
         // 4 1 4 2 4 3 
         // 5 1 5 2 5 3 
         
-        for(int i=1;i<=5;i++){
-            for(int j=1;j<=3;j++){
-                System.out.print(i + " " + j + " ");
-            }
-            System.out.println();
-        }
+        // for(int i=1;i<=8;i++){
+        //     for(int j=1;j<=3;j++){
+        //         System.out.print(i + " " + j + " ");
+        //     }
+        //     System.out.println();
+        // }
 
         //12
+        // 1 6 11 16 21 
+        // 2 7 12 17 22
+        // 3 8 13 18 23
+        // 4 9 14 19 24
+        // 5 10 15 20 25
 
-        
+        // int n=5;
+        // int k;
+        // for(int i=1;i<=n;i++){
+        //     k=i;
+        //     for(int j=1;j<=n;j++){
+        //         System.out.print(k + " ");
+        //         k+=n;
+        //     }
+        //     System.out.println();
+        // }
+
+        //13
+        // 1 10 11 20 21 
+        // 2 9 12 19 22
+        // 3 8 13 18 23
+        // 4 7 14 17 24
+        // 5 6 15 16 25
+        // int n=5;
+        // int x;
+        // int y;
+        // for(int i=1;i<=n;i++){
+        //     x=i;
+        //     y=n-i + 1;
+        //     for(int j=1;j<=n;j++){
+        //        if(j%2 == 1){
+        //             System.out.print(x + " ");
+        //        }else{
+        //             System.out.print(y + " ");
+        //        }
+        //        x = x + n;
+        //        y = y + n;
+        //     }
+        //     System.out.println();
+        // }
+
+        //14
+        // 5 10 15 20 25 
+        // 4 9 14 19 24
+        // 3 8 13 18 23
+        // 2 7 12 17 22
+        // 1 6 11 16 21
+
+        // int n = 5;
+        // int x;
+        // for(int i=1;i<=n;i++){
+        //     x = n - i + 1;
+        //     for(int j=1;j<=n;j++){
+        //         System.out.print(x + " ");
+        //         x = x + n;
+        //     }
+        //     System.out.println();
+        // }
+
+        //15
+        // 5 6 15 16 25 
+        // 4 7 14 17 24
+        // 3 8 13 18 23
+        // 2 9 12 19 22
+        // 1 10 11 20 21
+
+        // int n=5;
+        // int x;
+        // int y;
+        // for(int i=1;i<=n;i++){
+        //     x=i;
+        //     y=n-i + 1;
+        //     for(int j=1;j<=n;j++){
+        //        if(j%2 != 1){
+        //             System.out.print(x + " ");
+        //        }else{
+        //             System.out.print(y + " ");
+        //        }
+        //        x = x + n;
+        //        y = y + n;
+        //     }
+        //     System.out.println();
+        // }
+
+        //15
+
+
+
+        // //testing 
+        // 1 2 3 4 5 6 7 8 9 10
+        // 11 12 13 14 15 16 17 18 19 20
+        // 21 22 23 24 25 26 27 28 29 30
+        // int r=3;
+        // int c=10;
+        // int k=1;
+        // for(int i=1; i<=r;i++){
+        //     for(int j=1;j<=c;j++){
+        //         System.out.print(k + " ");
+        //         k++;
+        //     }
+        //     System.out.println();
+        // }
 
     }
 }
