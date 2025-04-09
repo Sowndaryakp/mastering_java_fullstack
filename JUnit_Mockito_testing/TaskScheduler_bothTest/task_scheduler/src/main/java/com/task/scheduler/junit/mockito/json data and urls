@@ -1,0 +1,28 @@
+POST http://localhost:8080/api/tasks
+
+{
+  "name": "Task 5",
+  "priority": 2,
+  "deadline": "2025-03-18T09:00:00",
+  "timestamp": "2025-04-09T09:00:00"
+}
+_____________________
+
+GET http://localhost:8080/api/tasks
+
+GET http://localhost:8080/api/tasks/3
+
+GET http://localhost:8080/api/tasks/sorted
+
+
+______
+PUT http://localhost:8080/api/tasks/2
+
+{
+  "name": "Task 5",
+  "priority": 4,
+  "deadline": "2025-03-18T09:00:00",
+  "timestamp": "2025-04-09T09:00:00"
+}
+_______________
+DELETE http://localhost:8080/api/tasks/5
