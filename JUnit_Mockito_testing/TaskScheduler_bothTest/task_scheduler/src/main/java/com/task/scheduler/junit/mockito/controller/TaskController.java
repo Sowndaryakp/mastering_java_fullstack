@@ -3,6 +3,7 @@ package com.task.scheduler.junit.mockito.controller;
 import com.task.scheduler.junit.mockito.model.Task;
 import com.task.scheduler.junit.mockito.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,8 +27,9 @@ public class TaskController {
     // ✅ POST: Create a new task
     // URL: POST http://localhost:8080/api/tasks
     @PostMapping
-    public Task createTask(@RequestBody Task task) {
-        return taskService.saveTask(task);
+    public ResponseEntity<Task> createTask(@RequestBody Task task) {
+        Task createdTask = taskService.saveTask(task);
+        return ResponseEntity.status(HttpStatus.CREATED).body(createdTask);
     }
 
 

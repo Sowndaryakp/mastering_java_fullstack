@@ -22,6 +22,12 @@ public class TaskService {
                 .thenComparing(Task::getDeadline)
                 .thenComparing(Task::getTimestamp));
 
+//        // sort: Deadline (asc) → Priority (desc) → Timestamp (FIFO)
+//        tasks.sort(Comparator.comparing(Task::getDeadline)
+//                .thenComparing(Comparator.comparing(Task::getPriority).reversed())
+//                .thenComparing(Task::getTimestamp));
+
+
         return tasks; // return sorted list
     }
 
