@@ -19,6 +19,12 @@ class TaskServiceTest {
     @Mock
     private TaskRepository taskRepository; // Creates a mock of TaskRepository
 
+    @Spy                              // Real object is created but methods can be stubbed
+    private List<Task> spyTaskList = new ArrayList<>(); // Example usage of @Spy
+
+    @Captor                           // Captures arguments passed to methods (used below)
+    private ArgumentCaptor<Task> taskCaptor;
+
     private Task task; // Task object used for test cases
 
     @BeforeEach
@@ -72,6 +78,18 @@ class TaskServiceTest {
     }
 
     @Test
+    void testSaveTask_UsingCaptor() {
+        when(taskRepository.save(any(Task.class))).thenReturn(task);  // Stub save
+
+        taskService.saveTask(task);                                   // Call method
+
+        verify(taskRepository).save(taskCaptor.capture());            // Capture argument
+        Task captured = taskCaptor.getValue();                        // Get captured value
+
+        assertEquals("Test Task", captured.getName());                // Assert captured
+    }
+
+    @Test
     void testUpdateTask() {
         Task updated = new Task(1, "Updated Task", 1,
                 task.getDeadline(), task.getTimestamp()); // Updated task object
@@ -98,5 +116,15 @@ class TaskServiceTest {
         when(taskRepository.existsById(99)).thenReturn(false); // Mock task does not exist
         boolean result = taskService.deleteTask(99); // Try deleting non-existing task
         assertFalse(result); // Assert deletion returns false
+    }
+
+    @Test
+    void testSpyTaskListUsage() {
+        spyTaskList.add(task);                          // Real method called
+        spyTaskList.add(new Task(2, "Another Task", 3, LocalDateTime.now(), LocalDateTime.now()));
+
+        assertEquals(2, spyTaskList.size());            // Verify real list size
+
+        verify(spyTaskList).add(task);                  // Verify interaction on spy
     }
 }
