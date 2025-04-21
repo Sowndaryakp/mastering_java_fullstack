@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConceptWiseCodingPractice/ConceptWiseCodingPractice.iml" filepath="$PROJECT_DIR$/ConceptWiseCodingPractice/ConceptWiseCodingPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core Java.iml" filepath="$PROJECT_DIR$/Core Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EachConcepts/EachConcepts.iml" filepath="$PROJECT_DIR$/EachConcepts/EachConcepts.iml" />
+    </modules>
+  </component>
+</project>
