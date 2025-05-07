@@ -1,4 +1,4 @@
-package OOPs.com.example.polymorphism.methodoverloading;
+package OOPs.com.example.polymorphism.methodoverriding;
 
 class Account{
     void withdraw(double amount){
