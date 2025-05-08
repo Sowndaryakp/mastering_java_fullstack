@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ConceptWiseCodingPractice" target="21" />
+      <module name="ConceptWiseCodingPractice" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
