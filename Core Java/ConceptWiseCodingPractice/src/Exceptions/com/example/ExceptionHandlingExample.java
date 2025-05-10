@@ -2,6 +2,7 @@ package Exceptions.com.example;
 // Banking Applications (e.g., Handling invalid transactions)
 class Bank{
     private double balance = 5000;
+
     void withdraw(double amount){
         try{
             if(amount > balance){
