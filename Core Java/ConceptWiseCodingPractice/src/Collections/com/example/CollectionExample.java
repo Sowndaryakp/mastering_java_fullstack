@@ -7,7 +7,6 @@ class BankAccount{
     private String accountHolder;
     private List<String> transactions;
 
-    //constructor
     public BankAccount(String accountHolder){
         this.accountHolder = accountHolder;
         this.transactions = new ArrayList<>();
@@ -15,26 +14,23 @@ class BankAccount{
 
     public void addTransaction(String transaction){
         transactions.add(transaction);
-        System.out.println("Transaction Added: " +transaction);
+        System.out.println("Transaction Added: " + transaction);
     }
 
-    // Method to display all transactions
-    public void displayTransactions() {
-        System.out.println("Transactions for " + accountHolder + ": " + transactions);
+    public void displayTransactions(){
+        System.out.println("Transactions for " + accountHolder + ": " +transactions);
     }
-
 }
 
-public class CollectionExample {
+class BankApplication{
     public static void main(String[] args){
-        //Creating a bank account for a customer
         BankAccount customer1 = new BankAccount("Sowndarya");
 
-        customer1.addTransaction("Deposited ₹5000 ");
+        customer1.addTransaction("Deposited ₹5000");
         customer1.addTransaction("Withdrawn ₹2000");
         customer1.addTransaction("Transferred ₹3000");
 
-        // Display all transactions
         customer1.displayTransactions();
+
     }
 }
